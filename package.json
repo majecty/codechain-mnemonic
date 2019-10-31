@@ -10,7 +10,7 @@
   },
   "name": "@majecty/codechain-mnemonic",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
   "license": "MIT",
   "devDependencies": {
     "@types/bn.js": "^4.11.5",
