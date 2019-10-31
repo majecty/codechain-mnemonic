@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { CCKey } from "codechain-keystore";
 import { PlatformAddress } from "codechain-primitives";
 import { Command } from "commander";
@@ -6,7 +8,7 @@ const prompt = require("prompt");
 let commandStarted = false;
 
 const program = new Command("codechain-mnemonic");
-program.version("1.0.0");
+program.version("1.0.3");
 
 program.command("import-seed").action(importSeed);
 
