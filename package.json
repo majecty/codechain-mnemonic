@@ -15,7 +15,7 @@
     "build"
   ],
   "name": "@majecty/codechain-mnemonic",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "build/main.js",
   "license": "MIT",
   "devDependencies": {
