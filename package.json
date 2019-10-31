@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "codechain-keystore": "^0.6.2",
+    "codechain-primitives": "^1.0.3",
+    "commander": "^3.0.2",
+    "prompt": "^1.0.0"
+  },
+  "name": "@majecty/codechain-mnemonic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^12.12.3",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
