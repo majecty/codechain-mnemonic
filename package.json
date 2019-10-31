@@ -5,6 +5,9 @@
     "commander": "^3.0.2",
     "prompt": "^1.0.0"
   },
+  "scripts": {
+    "build": "tsc -p ."
+  },
   "name": "@majecty/codechain-mnemonic",
   "version": "1.0.0",
   "main": "index.js",
