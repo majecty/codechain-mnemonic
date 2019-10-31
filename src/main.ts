@@ -8,7 +8,7 @@ const prompt = require("prompt");
 let commandStarted = false;
 
 const program = new Command("codechain-mnemonic");
-program.version("1.0.3");
+program.version("1.0.4");
 
 program.command("import-seed").action(importSeed);
 
