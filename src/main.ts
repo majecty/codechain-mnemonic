@@ -8,7 +8,7 @@ const prompt = require("prompt");
 let commandStarted = false;
 
 const program = new Command("codechain-mnemonic");
-program.version("1.0.4");
+program.version("1.0.5");
 
 program.command("import-seed").action(importSeed);
 
@@ -90,7 +90,7 @@ async function getCodeChainAddress(seedHash: string) {
 function getMnemonic(): Promise<string> {
   return new Promise((resolve, reject) => {
     prompt.start();
-    prompt.get({ properties: { password: { hidden: true } } }, function(
+    prompt.get({ properties: { mnemonic: { hidden: true } } }, function(
       err: any,
       result: any
     ) {
@@ -98,7 +98,7 @@ function getMnemonic(): Promise<string> {
         reject(err);
         return;
       }
-      resolve(result.password);
+      resolve(result.mnemonic);
     });
   });
 }
