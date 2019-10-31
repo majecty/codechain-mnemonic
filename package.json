@@ -8,9 +8,12 @@
   "scripts": {
     "build": "tsc -p ."
   },
+  "bin": {
+    "codechain-mnemonic": "build/main.js"
+  },
   "name": "@majecty/codechain-mnemonic",
-  "version": "1.0.0",
-  "main": "build/index.js",
+  "version": "1.0.1",
+  "main": "build/main.js",
   "license": "MIT",
   "devDependencies": {
     "@types/bn.js": "^4.11.5",
